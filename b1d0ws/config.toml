@@ -45,6 +45,7 @@ url  = "https://www.linkedin.com/in/eduardo-bido-541430193/"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
+      logoMark     = " "
       logoText = "/home/b1d0ws"
       logoHomeLink = "/"
     # or
