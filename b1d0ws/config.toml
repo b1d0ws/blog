@@ -19,7 +19,7 @@ theme = "hello-friend-ng"
   enableSharingButtons = true
 
   # Metadata mostly used in document's head
-  description = "meu blogzinho beo"
+  description = "just a n00b blog"
   keywords = "homepage, blog"
   images = [""]
 
