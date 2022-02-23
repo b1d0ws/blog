@@ -1,0 +1,4 @@
+[submodule "b1d0ws/public"]
+	path = b1d0ws/public
+	url = https://github.com/b1d0ws/b1d0ws.github.io.git
+	branch = main
