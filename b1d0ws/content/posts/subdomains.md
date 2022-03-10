@@ -145,3 +145,5 @@ Basicamente o script roda todas as ferramentas de enumeração e cria um arquivo
 Nesse artigo foram apresentadas 5 ferramentas para enumeração de subdomínios, sendo essa uma parte muito importante na hora de realizar um pentest, análise de vulnerabilidades, entre outras atividades que envolvem o mapeamento de um alvo.
 
 Com a realização dessa enumeração, a superfície que pode sofrer ataques e possuir vulnerabilidades muitas vezes aumenta consideravelmente.
+
+Até mais ver =).
