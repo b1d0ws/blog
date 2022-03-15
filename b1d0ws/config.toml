@@ -55,11 +55,18 @@ url  = "https://www.linkedin.com/in/eduardo-bido-541430193/"
 
   # And you can even create generic menu
  [menu]
+ [[menu.main]]
+    identifier = "posts"
+    name       = "posts"
+    url        = "posts/"
+  [[menu.main]]
+    identifier = "write-ups"
+    name       = "write-ups"
+    url        = "write-ups/"
   [[menu.main]]
     identifier = "whoami"
     name       = "whoami"
     url        = "whoami/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "posts"
-    url        = "posts/"
+  
+  
+  
