@@ -7,7 +7,7 @@ https://tryhackme.com/room/toc2
 
 ## **User Flag**
 
-First, we use nmap to see what ports are open.
+First, we use nmap to see which ports are open.
 
 ![nmap-toc2](/toc2/nmap-toc2.png)
 
