@@ -1,5 +1,5 @@
 ---
-title: "How to set up and start using Burpsuite Proxy"
+title: "Burpsuite - How to configure and start using the Proxy"
 date: 2022-04-13T15:20:50-03:00
 ---
 
