@@ -21,7 +21,7 @@ Muitas instalações utilizam **cercas** como primeira linha de defesa. As cerca
 
 Um segundo controle físico comum é a colocação de **barreiras de proteção**. Os **pilaretes (dissuasores)** são postes ou outros obstáculos, como os mostrados abaixo, que impedem que veículos atravessem uma determinada área. Eles podem parecer postes, pilares ou até mesmo plantas para uma segurança mais despercebida. Alguns são projetados para serem removíveis ou acionados mecanicamente para que sejam levantados e abaixados conforme necessário.
 
-![Pilaretes](/bollards.jpg)
+![Pilaretes](/controles-fisicos/bollards.jpg)
 
 ## Câmeras e Sensores
 
@@ -45,7 +45,7 @@ Esse sistema é muito semelhante aos detectores de metal usados em bancos.
 
 >Piggybacking e tailgating consistem em pegar “carona” com alguém que tem permissão e acesso, ou seja, tentar entrar despercebido em determinada região passando junto com uma pessoa autorizada.
 
-![Mantrap](/mantrap.jpg)
+![Mantrap](/controles-fisicos/mantrap.jpg)
 
 ## Leitores Biométricos
 
@@ -98,7 +98,7 @@ Um projetor de corredor quente/corredor frio coloca entradas e exaustores de ar 
 
 A segurança de rede também desempenha um papel em áreas seguras, incluindo o uso de uma **sub-rede com tela** (também frequentemente chamada de **zona desmilitarizada [DMZ]**). As sub-redes dependem de dispositivos de segurança como firewalls para fornecer **segmentações** que limitam o fluxo de tráfego de entrada e saída delas, mantendo assim zonas de segurança mais elevadas seguras.
 
-![Zona Desmilitarizada (DMZ)](/DMZ.png)
+![Zona Desmilitarizada (DMZ)](/controles-fisicos/DMZ.png)
 
 **Air-gaps** são arquiteturas utilizadas para segmentar redes fisicamente, impedindo assim a conectividade entre elas.
 

@@ -56,11 +56,11 @@ Com essa informação, você pode procurar como explorar a versão encontrada. U
 
 A ferramenta Linux Exploit Suggester analisa isso de forma automatizada, como indicado na figura abaixo. Com o output, podemos percebemos que o sistema está vulnerável ao Dirty Cow.
 
-![LES-2](/kernel-exploits.png)
+![LES-2](/linux-privesc/kernel-exploits.png)
 
 Acessamos o site https://dirtycow.ninja/ para pegar o exploit e o utilizamos.
 
-![dirty-cow](/dirty-cow.png)
+![dirty-cow](/linux-privesc/dirty-cow.png)
 
 ## **Permissões Sudo**
 
@@ -70,7 +70,7 @@ Observe na imagem abaixo, a primeira linha não comentada indica que o usuário 
 
 Para entender mais sobre a estrutura desse arquivo eu recomendo [esse artigo](https://medium.com/analytics-vidhya/how-to-add-users-to-sudoers-file-in-ubuntu-e89c24b7369d).
 
-![/etc/sudoers](/etc-sudoers.png)
+![/etc/sudoers](/linux-privesc/etc-sudoers.png)
 
 A questão é: como ver quais comandos podemos executar como root se não temos acesso ao arquivo /etc/sudoers?
 
@@ -78,9 +78,9 @@ O comando *sudo -l* indica isso pra você como mostrado abaixo.
 
 Assim que identificado o comando que você pode executar como root, para saber se existe alguma forma de utilizá-lo para elevação de privilégio, você pode olhar o site [GTFOBins](https://gtfobins.github.io/) e conferir se existe algum comando listado em Sudo para se tornar root.
 
-![sudo-l](/find-root.png)
+![sudo-l](/linux-privesc/find-root.png)
 
-![gtfo-find](/gtfobins-find.png)
+![gtfo-find](/linux-privesc/gtfobins-find.png)
 
 É importante frisar que cada comando tem um jeito para escalar privilégio e obviamente nem todos eles possuem essa capacidade. Um exemplo diferente seria ter permissão para executar o cat. Com esse comando, você pode ler qualquer arquivo do sistema, então poderia procurar por flags como /root/root.txt ou analisar o /etc/shadow em busca de hashes.
 
@@ -96,9 +96,9 @@ No começo pode ser confuso e difícil analisar qual comando pode ser utilizado,
 
 No resultado abaixo, percebemos que */usr/bin/bash* tem o SUID para o usuário root. Agora podemos procurar esse comando no gtfobins e utilizar as sintaxes que aparecem em SUID.
 
-![suids](/suid.png)
+![suids](/linux-privesc/suid.png)
 
-![gtfo-bash](/gtfobins-bash.png)
+![gtfo-bash](/linux-privesc/gtfobins-bash.png)
 
 Para saber mais sobre SUID e outras permissões especiais, acesse [este link](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit).
 
@@ -110,17 +110,17 @@ Você pode checar os cron jobs da maquina no arquivo */etc/crontab*. Na imagem a
 
 Existe uma estrutura por trás dessa sintaxe que você pode entender melhor através [desse link](https://ostechnix.com/a-beginners-guide-to-cron-jobs/).
 
-![crontabs](/crontab.png)
+![crontabs](/linux-privesc/crontab.png)
 
 Analisando o arquivo, percebemos que ele faz um backup da pasta notes. A forma para explorar essa falha é editar o arquivo backup.sh com algum comando que nos dê o acesso ao root.
 
 Nesse caso, podemos inserir o comando abaixo que abre uma conexão em nossa máquina atacante na porta 3333. Como o script será executado como root, nossa conexão também será realizada com esse usuário.
 
-![backup.sh](/backup.sh.png)
+![backup.sh](/linux-privesc/backup.sh.png)
 
 Agora basta salvar o arquivo e esperar a tarefa ser executada (a cada minuto) ouvindo a porta que você indicou no comando.
 
-![listener](/crontab-root.png)
+![listener](/linux-privesc/crontab-root.png)
 
 ## **PwnKit**
 
@@ -134,7 +134,7 @@ A exploração é extremamente simples e pode ser encontrada [aqui](https://gith
 
 Abaixo você pode ver a exploração sendo realizada em uma [máquina do tryhackme](https://tryhackme.com/room/pwnkit) feita para aprender a explorar essa vulnerabilidade.
 
-![pwnkit](/pwnkit-thm.png)
+![pwnkit](/linux-privesc/pwnkit-thm.png)
 
 Se você quiser saber mais sobre, acesse [esse link](https://blog.qualys.com/vulnerabilities-threat-research/2022/01/25/pwnkit-local-privilege-escalation-vulnerability-discovered-in-polkits-pkexec-cve-2021-4034).
 

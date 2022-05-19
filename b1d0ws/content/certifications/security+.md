@@ -3,7 +3,7 @@ title: "Minha experiência com a Security+"
 date: 2022-01-20T15:20:50-03:00
 ---
 
-![Security+](/security+.png)
+![Security+](/security+/security+.png)
 
 Olá, pessoas, como vão? No texto de hoje irei relatar minha experiência com uma das certificações de segurança mais conhecidas, a Security+ da CompTIA.
 
@@ -37,7 +37,7 @@ O livro é de fácil compreensão e acaba sendo bem divertido conseguir ler um l
 
 Ao terminar de ler e sublinhar tudo de interessante e assistir todo o curso na Udemy, juntei as anotações dos dois materiais e sintetizei no meu GitBook. Assim eu montei um resumo bem bom para utilizar como fonte de consulta e constante estudo.
 
-![Gitbook Security+](/gitbook-security+.png)
+![Gitbook Security+](/security+/gitbook-security+.png)
 
 ## Custos
 

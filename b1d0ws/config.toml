@@ -64,9 +64,9 @@ url  = "https://www.linkedin.com/in/eduardo-bido-541430193/"
     name       = "write-ups"
     url        = "write-ups/"
   [[menu.main]]
-    identifier = "whoami"
-    name       = "whoami"
-    url        = "whoami/"
+    identifier = "certifications"
+    name       = "certifications"
+    url        = "certifications/"
   
   
   

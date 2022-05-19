@@ -22,7 +22,7 @@ Aproveitei meu período de férias da faculdade pra poder estudar e tentava me d
 
 Meus estudos se basearam em três materiais: **curso e simulado do Ricardo Prudenciato** na Udemy (são separados) e o **livro Certificação LPI-1: 101–102** do Luciano Antonio Siqueira. A maneira de estudar era basicamente essa: eu assistia as aulas e ia anotando tudo no WPS Word (quase idêntico ao Word da Microsoft só que free, muito usado no Linux). Depois fazia os exercícios propostos pelo professor e seguia adiante.
 
-![Meu canto de estudos](/pc-lpi.jpeg "Meu canto de estudos")
+![Meu canto de estudos](/lpic-1/pc-lpi.jpeg "Meu canto de estudos")
 
 Muita gente pede dos valores, então deixo aqui bem claro os gastos (prepara o bolso).
 

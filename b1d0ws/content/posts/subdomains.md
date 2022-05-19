@@ -33,7 +33,7 @@ python3 sublist3r.py -b -d $url # Brute-force nos domínios
 
 #### Exemplo
 
-![sublist3r](/sublist3r.png)
+![sublist3r](/subdomains/sublist3r.png)
 
 ## **amass**
 
@@ -58,7 +58,7 @@ amass enum -o exemplo.txt -d $url # Joga a saída para o arquivo exemplo.txt
 
 #### Exemplo
 
-![amass](/amass.png)
+![amass](/subdomains/amass.png)
 
 ## **assetfinder**
 
@@ -78,7 +78,7 @@ assetfinder --subs-only $url # Definir o domínio (target) a ser enumerado
 
 #### Exemplo
 
-![assetfinder](/assetfinder.png)
+![assetfinder](/subdomains/assetfinder.png)
 
 ## **findomain**
 
@@ -100,7 +100,7 @@ findomain-linux -o -t $url # Joga a saída para um arquivo. O nome do arquivo se
 
 #### Exemplo
 
-![findomain](/findomain.png)
+![findomain](/subdomains/findomain.png)
 
 ## **subfinder**
 
@@ -121,7 +121,7 @@ subfinder -o exemplo.txt -d $url # Joga a saída para o arquivo exemplo.txt
 
 #### Exemplo
 
-![subfinder](/subfinder.png)
+![subfinder](/subdomains/subfinder.png)
 
 ## **Script**
 
@@ -138,7 +138,7 @@ Note que esse é um script criado para uso pessoal, então ele conta com ferrame
 
 Basicamente o script roda todas as ferramentas de enumeração e cria um arquivo para cada resultado, além de criar um arquivo com todos os subdomínios encontrados e outro com todos os que estão acessíveis.
 
-![script](/script.png)
+![script](/subdomains/script.png)
 
 ## **Conclusão**
 
