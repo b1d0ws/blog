@@ -45,7 +45,7 @@ Nas últimas semanas, eu reassisti todas as aulas e refiz os exercícios para ti
 
 Para toda aula assistida, eu fazia anotações e colocava num Word. Na hora de passar a limpo, eu joguei tudo no GitBook, um aplicativo Web que eu uso para deixar meus resumos.
 
-![GitBook CCNA](/gitbook-ccna.png)
+![GitBook CCNA](/ccna/gitbook-ccna.png)
 
 ## Custos
 
