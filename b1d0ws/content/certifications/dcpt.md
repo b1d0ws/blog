@@ -35,7 +35,7 @@ Assim que finalizei o Experience, agendei meu exame. É obrigatório que você c
 
 Sendo claro e direto, os custos envolvidos para tirar a DCPT foram:
 
-R$1.500 para o Novo Pentest Profissional  
+R$1500 para o Novo Pentest Profissional  
 R$500 para o Pentest Experience
 
 Dei uma pesquisada e vi que os valores estão um pouco mais caros em 2022. Recomendo você falar com a sua empresa para ver se eles fazem o apoio financeiro na realização dessa certificação. Como a DESEC é Brasileira talvez seja mais fácil.
