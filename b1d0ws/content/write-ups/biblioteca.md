@@ -5,6 +5,8 @@ date: 2022-05-23T20:20:50-03:00
 
 https://tryhackme.com/room/biblioteca
 
+![biblioteca](/biblioteca/wallpaper.jpg)
+
 ## **User Flag**
 
 First, we start by enumerating the ports and services.  
