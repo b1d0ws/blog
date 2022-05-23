@@ -3,9 +3,9 @@ title: "Minha experiência com a DCPT"
 date: 2022-05-22T15:20:50-03:00
 ---
 
-Olá, pessoas, como vão? No texto de hoje irei relatar minha experiência com uma das certificações de segurança mais conhecida no Brasil, a DCPT da Desec.
-
 ![Banner DCPT](/dcpt/banner.png)
+
+Olá, pessoas, como vão? No texto de hoje irei relatar minha experiência com uma das certificações de segurança mais conhecida no Brasil, a DCPT da Desec.
 
 ## Quem Sou Eu?
 
