@@ -1,6 +1,6 @@
 ---
 title: "Biblioteca - TryHackMe"
-date: 2022-05-23T20:45:50-03:00
+date: 2022-05-23T20:20:50-03:00
 ---
 
 https://tryhackme.com/room/biblioteca
