@@ -5,7 +5,7 @@ date: 2022-07-05T13:38:50-03:00
 
 https://tryhackme.com/room/annie
 
-![bannerg-annie](/annie/banner.png)
+![banner-annie](/annie/banner.png)
 
 ## **User Flag**
 
@@ -88,7 +88,7 @@ The setcap command is used to *set capabilities* to other binaries. Being able t
 
 First, we copy python3 binary to our home, then we set the capability to it with *setcap cap_setuid_ep /home/annie/python3* command.
 
-Now our python3 binary can run as root permission, therefore we just need to *invoke a new bash* with the UID 0 that is the root UID.
+Now our python3 binary can run with root permission, therefore we just need to *invoke a new bash* with the UID 0 that is the root UID.
 
 ![rootFlag-annie](/annie/rootFlag.png)
 
