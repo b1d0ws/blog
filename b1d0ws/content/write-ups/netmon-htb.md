@@ -22,7 +22,8 @@ I think this is the easiest user flag that exists in HTB.
 
 ![netmon-userFlag](/netmon/userFlag.png)
 
-\
+## **Root Flag**
+
 Going to the website, we find a *PTRG Network Monitor* login page. Now we need to find the credentials of it.
 
 The default credentials *prtgadmin:prtgadmin* doesn’t work here.
