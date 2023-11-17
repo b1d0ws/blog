@@ -23,7 +23,7 @@ Website is apache default page, so we can enumerate directories with gobuster.
 
 ![apache](/dreaming/website.png)
 
-![gobuster](/dreaming/goBuster.png)
+![gobuster](/dreaming/gobuster.png)
 
 \
 We discover a hidden directory that contains a website CMS called **Pluck**.
