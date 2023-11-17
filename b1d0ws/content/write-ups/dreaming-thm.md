@@ -5,7 +5,7 @@ date: 2022-09-05T11:00:50-03:00
 
 https://tryhackme.com/room/dreaming
 
-![sandmanIcon](/dreaming/sandmanIcon.jpg)
+![icon](/dreaming/icon.jpg)
 
 This machine was made by me and my friend Julio. Our Linkedin will be in the end of this write-up in case of any doubts or suggestions you guys have =).
 
