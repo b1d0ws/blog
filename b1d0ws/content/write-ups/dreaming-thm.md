@@ -1,6 +1,6 @@
 ---
 title: "Dreaming - TryHackMe"
-date: 2022-09-05T11:00:50-03:00
+date: 2023-11-17T00:02:50-03:00
 ---
 
 https://tryhackme.com/room/dreaming
